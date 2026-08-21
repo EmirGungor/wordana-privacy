@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wordana — Destek / Support</title>
+<style>
+  :root{
+    --bg:#0A0A0F; --card:#16162A; --surface:#1E1E2E; --border:#2A2A40;
+    --text:#F5F5FA; --muted:#A0A0B8; --primary:#7C6CF0; --primary2:#5A4BD6; --cyan:#00D2FF;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; padding:0 20px 80px;
+  }
+  .wrap{max-width:760px; margin:0 auto}
+  header{padding:48px 0 24px; text-align:center}
+  .logo{
+    width:64px; height:64px; border-radius:16px; display:inline-flex; align-items:center; justify-content:center;
+    background:linear-gradient(135deg,var(--primary),var(--primary2)); font-weight:800; font-size:34px; color:#fff;
+    box-shadow:0 10px 30px rgba(124,108,240,.35); position:relative;
+  }
+  .logo::after{content:"."; color:var(--cyan)}
+  h1{font-size:30px; margin:18px 0 6px; font-weight:800; letter-spacing:-.3px}
+  .sub{color:var(--muted); font-size:15px; margin:0}
+  .tabs{display:flex; gap:8px; justify-content:center; margin:28px 0 8px}
+  .tab{
+    background:var(--surface); border:1px solid var(--border); color:var(--muted);
+    padding:8px 18px; border-radius:999px; cursor:pointer; font-size:14px; font-weight:600;
+  }
+  .tab.active{background:rgba(124,108,240,.18); border-color:var(--primary); color:#cdc6ff}
+  section.lang{display:none}
+  section.lang.active{display:block}
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:18px;
+    padding:22px 24px; margin:16px 0;
+  }
+  h2{font-size:19px; margin:6px 0 10px; font-weight:700; color:#fff}
+  h2 .em{margin-right:8px}
+  p{margin:8px 0; color:#d8d8e6}
+  ul{margin:8px 0 8px 2px; padding-left:20px}
+  li{margin:6px 0; color:#d8d8e6}
+  .pill{display:inline-block; background:rgba(0,210,255,.12); color:var(--cyan);
+    border:1px solid rgba(0,210,255,.3); padding:3px 12px; border-radius:999px; font-size:13px; font-weight:600}
+  a{color:var(--primary); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .muted{color:var(--muted); font-size:14px}
+  footer{text-align:center; color:var(--muted); font-size:13px; margin-top:34px}
+  .updated{text-align:center; color:var(--muted); font-size:13px; margin-top:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">W</div>
+    <h1>Wordana</h1>
+    <p class="sub">İngilizce Kelime · Destek &amp; Support</p>
+  </header>
+
+  <div class="card">
+    <h2>İletişim</h2>
+    <p>Her türlü soru, hata bildirimi ve öneri için:
+       <a href="mailto:wordana.app@gmail.com">wordana.app@gmail.com</a></p>
+    <p>Genellikle 1–2 iş günü içinde dönüş yapılır.</p>
+  </div>
+
+  <div class="card">
+    <h2>Sık Sorulanlar</h2>
+
+    <h3>Aboneliğimi nasıl iptal ederim?</h3>
+    <p>iPhone'unda <b>Ayarlar → (adın) → Abonelikler</b> yolunu izle, Wordana'yı seç ve
+       <b>Aboneliği İptal Et</b>'e dokun. İptal, mevcut dönemin sonunda geçerli olur;
+       o tarihe kadar erişimin devam eder. Abonelikler, dönem bitiminden en az 24 saat
+       önce iptal edilmezse otomatik yenilenir.</p>
+
+    <h3>Satın alımımı yeni telefonuma nasıl taşırım?</h3>
+    <p>Aynı Apple Kimliği ile giriş yaptığın sürece, uygulamayı kurup ödeme ekranındaki
+       <b>Satın Alımları Geri Yükle</b>'ye dokunman yeterli.</p>
+
+    <h3>"Ömür Boyu" seçeneği abonelik mi?</h3>
+    <p>Hayır. Ömür Boyu tek seferlik bir satın alımdır; yenilenmez ve iptal edilmesi gerekmez.</p>
+
+    <h3>İlerlememi sıfırlayabilir miyim?</h3>
+    <p>Evet: <b>Ayarlar → Veri &amp; Paylaşım → İlerlemeyi Sıfırla</b>. Bu işlem geri alınamaz.
+       Öncesinde <b>Yedeği Dışa Aktar</b> ile verilerini kaydedebilirsin.</p>
+
+    <h3>Verilerim nerede tutuluyor?</h3>
+    <p>Yalnızca cihazında. Hesap, kayıt veya sunucu yok. Ayrıntılar için
+       <a href="privacy.html">Gizlilik Politikası</a>.</p>
+
+    <h3>İnternet gerekiyor mu?</h3>
+    <p>Öğrenme özellikleri çevrimdışı çalışır. Yalnızca satın alma ve abonelik doğrulaması
+       için App Store bağlantısı gerekir.</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact (English)</h2>
+    <p>Questions, bug reports and feedback: <a href="mailto:wordana.app@gmail.com">wordana.app@gmail.com</a></p>
+    <p>To cancel a subscription: <b>Settings → (your name) → Subscriptions</b> on your iPhone.
+       To move a purchase to a new device, tap <b>Restore Purchases</b> on the paywall.
+       Lifetime is a one-time purchase, not a subscription.</p>
+    <p>See also the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <p class="sub" style="text-align:center;margin-top:32px">
+    <a href="privacy.html">Gizlilik Politikası / Privacy Policy</a>
+  </p>
+</div>
+</body>
+</html>
